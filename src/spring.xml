@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>   
+    <bean id="triangle" class="org.technodyne.Triangle" autowire="byName"">
+
+    </bean>
+    
+    <bean id="pointA" class="org.technodyne.Point">
+        <property name="x" value="0"/>
+		<property name="y" value="0"/>
+    </bean>
+    
+    <bean id="pointB" class="org.technodyne.Point">
+        <property name="x" value="0"/>
+		<property name="y" value="0"/>
+    </bean>
+    
+    <bean id="pointC" class="org.technodyne.Point">
+        <property name="x" value="0"/>
+		<property name="y" value="0"/>
+    </bean>
+ </beans>
